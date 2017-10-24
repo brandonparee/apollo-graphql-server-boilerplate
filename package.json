@@ -1,0 +1,22 @@
+{
+  "name": "apollo-graphql-server-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brandonparee/apollo-graphql-server-starter.git",
+  "author": "Brandon Paree <brandon.paree@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^1.1.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.6.1",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "babel-node": "babel-node --presets=env",
+    "start": "nodemon --exec npm run babel-node -- ./index.js"
+  }
+}
